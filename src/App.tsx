@@ -17,7 +17,7 @@ function App() {
       <Sidebar isOpen={BarMenuIsOpen} />
       <main className={`transition-all duration-300 p-6 bg-gray-50 min-h-screen ${BarMenuIsOpen ? "ml-64" : "ml-0"}`}>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/orders" element={<OrdersPage />} />
