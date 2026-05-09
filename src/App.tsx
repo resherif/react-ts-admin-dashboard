@@ -1,7 +1,6 @@
-import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
-import Sidebar from './Components/sidebar'
+import Sidebar from './Components/sidebar/sidebar'
 import Dashboard from './Components/Dashboard/Dashboard'
 import { useState } from 'react'
 import ProductsPage from './Components/Products/ProductPage'
