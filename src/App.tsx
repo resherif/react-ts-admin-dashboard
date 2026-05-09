@@ -5,6 +5,8 @@ import Dashboard from './Components/Dashboard/Dashboard'
 import { useState } from 'react'
 import ProductsPage from './Components/Products/ProductPage'
 import OrdersPage from './Components/orders/ordersPage'
+import CustomersPage from './Components/Customers/CustomersPage';
+import AnalyticsPage from './Components/Analytics/Analytics';
 
 function App() {
 
@@ -19,8 +21,8 @@ function App() {
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/orders" element={<OrdersPage />} />
-          <Route path='/customers' element={< CustomersPage />}
-          <Route path='/analytics' element={ <AnalyticsPage/>}
+          <Route path='/customers' element={< CustomersPage />}/>
+          <Route path='/analytics' element={ <AnalyticsPage/>}/>
           <Route path="*" element={<h1 className="text-red-500">404: Page Not Found</h1>} />
         </Routes>
       </main>
